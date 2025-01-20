@@ -38,4 +38,33 @@ export const styles = StyleSheet.create({
         fontSize: 16,
         color: '#555',
     },
+    modalContainer: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'rgba(0,0,0,0.5)',
+    },
+    modalTitle: {
+        fontSize: 20,
+        marginBottom: 10,
+    },
+    input: {
+        width: '80%',
+        backgroundColor: '#fff',
+        padding: 10,
+        borderRadius: 5,
+        marginBottom: 10,
+    },
+    modalButtonContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        width: '100%',
+        marginTop: 10,
+    },
+    buttonContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        marginTop: 10,
+    },
+    
 });
